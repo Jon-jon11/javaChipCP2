@@ -43,15 +43,20 @@ public class HomePage extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jLabel1.setText("MotorPH Payroll System");
 
+        jLabel2.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jLabel2.setText("Username:");
 
+        jTextField1.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(204, 204, 204));
         jTextField1.setText("Input Username");
 
+        jLabel3.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jLabel3.setText("Password:");
 
+        jTextField2.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(204, 204, 204));
         jTextField2.setText("Input Password");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -60,10 +65,13 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jButton1.setText("Employee");
 
+        jLabel4.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jLabel4.setText("Login As:");
 
+        jButton2.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jButton2.setText("Supervisor");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,6 +79,7 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jButton3.setText("HR");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,6 +87,7 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jButton4.setText("Finance");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,6 +95,7 @@ public class HomePage extends javax.swing.JFrame {
             }
         });
 
+        jLabel5.setFont(new java.awt.Font("Tw Cen MT", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(102, 153, 255));
         jLabel5.setText("Forgot Password?");
 
@@ -114,7 +125,7 @@ public class HomePage extends javax.swing.JFrame {
                         .addComponent(jButton3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton4)))
-                .addContainerGap(337, Short.MAX_VALUE))
+                .addContainerGap(339, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel5)
@@ -143,7 +154,7 @@ public class HomePage extends javax.swing.JFrame {
                     .addComponent(jButton4))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel5)
-                .addContainerGap(157, Short.MAX_VALUE))
+                .addContainerGap(173, Short.MAX_VALUE))
         );
 
         pack();
